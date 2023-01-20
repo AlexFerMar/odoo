@@ -1,0 +1,24 @@
+version: '3.1'
+services:
+  mydb:
+    image: postgres:13
+    environment:
+      - POSTGRES_DB=postgres
+      - POSTGRES_PASSWORD=odoo
+      - POSTGRES_USER=odoo
+    ports:
+      - "5430:5432"
+    volumes:
+     - dam22_odoo:/var/lib/postgresql/data
+  
+  odoo:
+    image: odoo:14.0
+    container_name: dam22_odooklk
+    ports:
+      - "8069:8069"
+    depends_on:
+      - mydb
+volumes:
+  dam22_odoo:
+
+  
