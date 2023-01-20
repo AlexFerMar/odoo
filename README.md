@@ -7,7 +7,7 @@
 
 [**Odoo**](https://es.wikipedia.org/wiki/Odoo) es un software de [ERP](https://es.wikipedia.org/wiki/Planificaci%C3%B3n_de_recursos_empresariales) integrado que incluye CRM, sitio web y comercio electrónico, facturación, contabilidad, fabricación, gestión de almacenes y proyectos, e inventario entre otros[^1]. 
 
-El módulo del servidor está escrito en el lenguaje [**Python**](https://es.wikipedia.org/wiki/Python) y emplea  [PostgreSQL**](https://es.wikipedia.org/wiki/PostgreSQL) como sistema gestor de base de datos. 
+El módulo del servidor está escrito en el lenguaje [**Python**](https://es.wikipedia.org/wiki/Python) y emplea  [**PostgreSQL**](https://es.wikipedia.org/wiki/PostgreSQL) como sistema gestor de base de datos. 
 
 
 ## 2.Instalando odoo 
@@ -59,10 +59,9 @@ Listo, con esto nuestros contenedores están creados y listos para su utilizaci�
 ## 3. Problemas con la disponibilidad de puertos
 
 Cuando intentamos iniciar el compose vemos que nos da el siguiente error:
->Falta la imagen del error, la imagen del panda hace de *placeholder* 
 
 
-![FALTAFOTO](https://static.wikia.nocookie.net/minecraft_gamepedia/images/0/05/Redpanda_cosmetic.png/revision/latest/scale-to-width-down/250?cb=20221021120927)
+![Error](https://github.com/AlexFerMar/Imagenes/blob/main/Odoo/Captura%20desde%202023-01-19%2011-17-55.png)
 
 
 
