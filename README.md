@@ -93,6 +93,33 @@ $systemctl start postgresql
 ```
 
 
+## 4.Accediendo a la base de datos 
+
+Después de solucionar los problemas de disponibilidad de puertos, podemos acceder a nuestra base de datos.
+
+En este caso emplearemos [**pycharm**](https://www.jetbrains.com/es-es/pycharm/) en su edición profesional ya que cuenta con una pestaña para realizar conexiones a base de datos. 
+
+Una vez introducimos la dirección y las credenciales, el programa se conectará a la base de datos y nos dejará acceder y manejar sus tablas.
+
+
+![postgres](https://github.com/AlexFerMar/Imagenes/blob/main/Odoo/Captura%20desde%202023-01-20%2014-44-12.png)
+
+
+
+## 5.Accediendo a odoo
+
+
+Comprobando que la base de datos funciona, es momento de revisar odoo. Para ello nos conectaremos a ***http://localhost:8069/*** en el navegador.
+
+Debería salirnos la siguiente imagen: 
+
+
+![menu_odoo](https://github.com/AlexFerMar/Imagenes/blob/main/Odoo/Captura%20desde%202023-01-20%2014-48-35.png)
+
+
+
+Con esto [**Odoo**](https://es.wikipedia.org/wiki/Odoo) ya está listo para realizar pruebas y operaciones con el.
+
 
 [^1]: Descripcion sacada de [Wikipedia](https://es.wikipedia.org/wiki/Odoo).
 
